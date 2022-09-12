@@ -1,0 +1,1018 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .4s ease-in-out;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.title p a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff;
+}
+
+
+/* ================================================ */
+
+header {
+    background: #000;
+    padding: 8px 0;
+    border-bottom: 1px solid #B8D20B;
+    height: 40px;
+}
+
+header .header_text {
+    width: 50%;
+    float: left;
+}
+
+header .header_text span {
+    margin-left: 40px;
+}
+
+header .header_text p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+header .header_icon {
+    width: 50%;
+    float: left;
+    text-align: right;
+    color: #fff;
+}
+
+header .header_icon i {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header .header_icon i:hover {
+    color: #B8D20B;
+}
+
+nav {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: .4s;
+    background: #000;
+    margin-top: 40px;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff !important;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+nav ul li a:after {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    margin-top: 10px;
+    background: #B8D20B;
+    content: "";
+    transition: .4s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav .align {
+    margin-left: 100px;
+}
+
+nav .button {
+    width: 10%;
+}
+
+nav .button a {
+    background: #B8D20B;
+    color: #000 !important;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+nav .button a:hover {
+    background: white;
+    color: #000 !important;
+}
+
+#banner-part {
+    margin-top: 82px;
+    background: #000;
+    padding: 100px 0 200px;
+}
+
+#banner-part h4 {
+    color: #B8D20B;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0
+}
+
+#banner-part h2 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#banner-part p {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0;
+    /* margin-bottom: 20px; */
+}
+
+#banner-part .text {
+    padding: 50px 0;
+}
+
+#banner-part span a {
+    background: #B8D20B;
+    color: #000 !important;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+#banner-part span a:hover {
+    background: #fff;
+    color: #000;
+}
+
+#banner-part .img {
+    position: relative;
+}
+
+#banner-part .img img+img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+}
+
+#authentic-part {
+    height: 90vh;
+    background: url(../images/Component\ 2.png) no-repeat center;
+    background-size: cover;
+    background-color: #000;
+}
+
+#authentic-part .text1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    padding-top: 80px;
+}
+
+#authentic-part .text1 p {
+    color: #B8D20B;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+#authentic-part .text1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#authentic-part .text2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    padding-top: 200px;
+}
+
+#authentic-part .text2 p {
+    color: #B8D20B;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+#authentic-part .text2 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#details {
+    background: #000;
+    color: #fff;
+    padding: 100px 0 0;
+}
+
+#details .text {
+    padding: 20px 0;
+}
+
+#details>.image {
+    height: 70vh;
+    background: url(../images/big.jpg) no-repeat center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+#menu-part {
+    background: #000;
+    padding: 40px 0;
+    color: #fff;
+    margin-top: 82px;
+}
+
+#menu-part h1 {
+    font-style: italic;
+}
+
+#menu-part .need {
+    padding-top: 80px;
+}
+
+#menu-part .need1 {
+    padding-top: 0 !important;
+}
+
+#food-items {
+    background: #000;
+    color: #fff;
+}
+
+#food-items .food p {
+    margin: 50px 40px 20px 40px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#food-items .food p:after {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    margin-top: 10px;
+    background: #B8D20B;
+    content: "";
+    transition: .4s;
+}
+
+#food-items .food p:hover:after,
+#food-items .food p.active:after {
+    width: 70%;
+}
+
+#food-items .foods img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#food-items .foods .food-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+#food-items .foods .food-tag {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+#food-items .foods .food-type {
+    font-size: 16px;
+    background: #F86D58;
+    color: #fff;
+    border-radius: 24px;
+    padding: 4px 24px;
+    line-height: 24px;
+}
+
+#food-items .foods .food-price {
+    margin-top: 8px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+#food-menu {
+    background: #000;
+}
+
+#food-menu .menu {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 88px;
+    color: #fff;
+    margin: 152px 0 30px;
+}
+
+#food-menu .food-selection {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #B8D20B;
+    color: #2E2E2E;
+    padding: 12px 37px;
+    gap: 10px;
+    border-radius: 40px;
+    margin-top: 90px;
+}
+
+#food-menu .foods img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#food-menu .foods .food-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#food-menu .foods .food-tag {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #fff;
+}
+
+#food-menu .foods .food-type {
+    font-size: 16px;
+    background: #F86D58;
+    color: #fff;
+    border-radius: 24px;
+    padding: 4px 24px;
+    line-height: 24px;
+}
+
+#food-menu .foods .food-price {
+    margin-top: 8px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
+}
+
+#food-menu>.banner {
+    margin-top: 30px;
+    height: 70vh;
+    background: url(../images/ramen.jpg) no-repeat center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+#chef-part {
+    background: #000;
+}
+
+#chef-part .chef {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 88px;
+    color: #fff;
+    margin: 152px 0 30px;
+}
+
+#chef-part .chef-selection {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #B8D20B;
+    color: #2E2E2E;
+    padding: 12px 37px;
+    gap: 10px;
+    border-radius: 40px;
+    margin-top: 130px;
+}
+
+#chef-part .img img {
+    width: 100%;
+}
+
+#chef-part .img {
+    position: relative;
+}
+
+#chef-part .img .chef-overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, #252323 -81.67%, rgba(218, 210, 210, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    opacity: 1;
+}
+
+#chef-part .img .chef-overlay>div {
+    padding-top: calc(20%);
+    padding-left: calc(5%);
+}
+
+#chef-part .img .chef-overlay P {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    /* margin-top: 150px;
+    margin-left: 50px; */
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+#chef-part .img .chef-overlay a {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+#about-part {
+    height: 150vh;
+    background: url(../images/Component.png) no-repeat top center;
+    background-size: cover;
+    background-color: #000;
+}
+
+#about-part .text1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    padding-top: 100px;
+}
+
+#about-part .text1 p {
+    color: #B8D20B;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+#about-part .text1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#details .color {
+    background: #F86D58;
+    margin-top: 100px;
+}
+
+#details .button {
+    width: 10%;
+}
+
+#details .banner5 {
+    font-family: 'Playfair Display', serif;
+    margin: 80px;
+}
+
+#details .banner5 h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 88px;
+}
+
+#details .banner5 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#details .button a {
+    background: #B8D20B;
+    color: #000 !important;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+#details .button a:hover {
+    background: white;
+    color: #000 !important;
+}
+
+#footer-part {
+    background: black;
+    padding: 200px 0;
+    color: #fff;
+}
+
+#footer-part .button a {
+    background: #B8D20B;
+    color: #000 !important;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+#footer-part .footer p {
+    padding: 10px 0;
+}
+
+#footer-part .footer ul li {
+    padding: 10px 0;
+}
+
+#footer-part .footer1 p {
+    padding: 10px 0;
+}
+
+#footer-part .button a:hover {
+    background: white;
+    color: #000 !important;
+}
+
+#footer-part .footer {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+}
+
+#footer-part .footer h3 {
+    font-weight: 700;
+}
+
+#footer-part .footer+.footer {
+    padding-top: 10px;
+}
+
+#footer-part .footer:last-child h3 {
+    padding-top: 10px;
+}
+
+#footer-part .footer:last-child {
+    text-align: left;
+    line-height: 30px;
+}
+
+#footer-part .footer:last-child h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#footer-part .footer:last-child p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#footer-part .footer:last-child input {
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100%;
+}
+
+#footer-part .footer:last-child input::placeholder {
+    padding: 10px;
+}
+
+#footer-part .footer:last-child .button {
+    width: 10%;
+}
+
+#footer-part .footer:last-child .button a {
+    background: #B8D20B;
+    color: #000 !important;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .4s;
+    margin: 10px 0;
+    padding: 5px 118px;
+}
+
+#footer-part .footer:last-child .button a:hover {
+    background: white;
+    color: #000 !important;
+}
+
+#footer-part .color {
+    background: #F86D58;
+    margin-bottom: 100px;
+}
+
+#footer-part .button {
+    width: 10%;
+}
+
+#footer-part .banner5 {
+    font-family: 'Playfair Display', serif;
+    margin: 80px;
+}
+
+#footer-part .banner5 h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 88px;
+}
+
+#footer-part .banner5 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#slider-part {
+    background: #000;
+    padding-top: 100px;
+}
+
+#slider-part .slider {
+    background: url(../images/menu2.jpg) no-repeat center;
+    background-size: cover;
+    height: 70vh;
+}
+
+#slider-part .slider1 {
+    background: url(../images/menu3.jpg) no-repeat center;
+    background-size: cover;
+    height: 70vh;
+}
+
+#slider-part .slider2 {
+    background: url(../images/menu4.jpg) no-repeat center;
+    background-size: cover;
+    height: 70vh;
+}
+
+#slider-part .slider .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    color: #fff;
+    padding: 500px 0;
+}
+
+#slider-part .slider1 .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    color: #fff;
+    padding: 500px 0;
+}
+
+#slider-part .slider2 .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    color: #fff;
+    padding: 500px 0;
+}
+
+#slider-part .foods {
+    padding-left: 50px;
+}
+
+#slider-part .foods .food-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#slider-part .foods .food-tag {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #fff;
+}
+
+#slider-part .foods .food-type {
+    font-size: 16px;
+    background: #F86D58;
+    color: #fff;
+    border-radius: 24px;
+    padding: 4px 24px;
+    line-height: 24px;
+}
+
+#slider-part .foods .food-price {
+    margin-top: 8px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
+}
+
+#reservation-part {
+    height: 90vh;
+    background: url(../images/Component\ 7.png) no-repeat center;
+    background-size: cover;
+    background-color: #000;
+}
+
+#reservation-part .text1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    padding-top: 80px;
+}
+
+#reservation-part .text1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#reservation-part .text2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    padding-top: 200px;
+}
+
+#reservation-part .text2 p {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#reservation-part .text2 .round {
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    transition: .4s;
+    margin: 0 auto;
+}
+
+#reservation-part .text2 .round .img img {
+    width: 100px;
+    height: 100px;
+}
+
+#form-part {
+    background: #000;
+    padding: 100px 0;
+}
+
+#form-part {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#form-part input {
+    width: 100%;
+    padding: 12px;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+#form-part input[type="date"] {
+    position: relative;
+}
+
+#form-part textarea {
+    width: 100%;
+    height: 160px;
+}
+
+#form-part iframe {
+    height: 750px;
+}
+
+#form-part iframe.black-map {
+    filter: grayscale(100%) invert(90%);
+}
+
+#contact-part {
+    background: #000;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#contact-part i {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #F86D58;
+    font-size: 20px;
+}
+
+#contact-part h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    padding: 30px 0;
+}
+
+#journey-part {
+    background: #000;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#journey-part .img1-slider ul.slick-dots li button {
+    background: transparent;
+}
+
+#journey-part .img1-slider ul.slick-dots li button:hover,
+#journey-part .img1-slider ul.slick-dots li.slick-active button {
+    background: #515A63;
+}
+
+#journey-part .text {
+    color: #fff;
+    padding: 30px 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#journey-part .img1-slider .details {
+    padding-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#journey-part .text2 {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+#journey-part .text .color {
+    color: #B8D20B;
+}
+
+#journey-part .acheivement {
+    position: relative;
+}
+
+#journey-part ul.slick-dots {
+    position: absolute;
+    top: 0;
+    left: -50%;
+}
+
+#authentic-part .text2 h5 {
+    color: #fff;
+}
+
+#authentic-part .text2 .round {
+    margin-top: 80px;
+}
+
+#authentic-part ul.slick-dots {
+    text-align: center;
+}
+
+#authentic-part .slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#authentic-part .slick-dots li button {
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 10px 0;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+#authentic-part .slick-dots li button:after {
+    width: 15px;
+    height: 15px;
+    background: #B8D20B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: "";
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#authentic-part .slick-dots .slick-active button:after {
+    opacity: 1;
+}
